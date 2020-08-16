@@ -1,0 +1,42 @@
+/* Color
+-------------------------- */
+$--color-primary: #1A98FC;
+$--color-success: #53E03F;
+$--color-warning: #FECB2F;
+$--color-danger: #FB0D1B;
+
+$--color-info: #909399;
+$--color-text-primary: #000000;
+$--color-text-regular: #58595B;
+$--color-text-secondary: #8A8C8E;
+$--color-text-placeholder: #DCDDDE;
+
+$--font-weight-primary: bold;
+$--font-weight-secondary: normal;
+
+$--color-black: #000;
+$--color-white: #fff;
+
+$--disabled-fill-base: rgba($--color-text-placeholder, 0.125);
+$--disabled-color-base: $--color-text-regular;
+/* Font
+-------------------------- */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+
+/* Input
+-------------------------- */
+$--input-height: 48px;
+
+
+/* Button
+-------------------------- */
+$--button-padding-vertical: 16px;
+
+
+/* Imports
+-------------------------- */
+@import "~element-ui/packages/theme-chalk/src/index";
+@import "~element-ui/packages/theme-chalk/src/reset";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+node -e "\
+	var f = './package.json',\
+		p = require(f),\
+		v = p.version || '0.0.0',\
+		a = v.split('.'),\
+		b;\
+		a[2] = +a[2] + 1;\
+		p.version = a.join('.');\
+		require('fs').writeFileSync(f, JSON.stringify(p, null, 2));\
+"
+
+git add ./package.json
