@@ -5,8 +5,8 @@ import modules from "@/store/modules";
 Vue.use(Vuex);
 
 const store = new Vuex.Store({
-	strict: true,
-	modules,
+    strict: true,
+    modules,
 });
 
 export default store;
