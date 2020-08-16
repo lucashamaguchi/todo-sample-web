@@ -57,6 +57,7 @@ export default {
                     title: "Success",
                     message: "Todo Created"
                 });
+                this.currentTodo = "";
                 this.handleUpdate();
             } catch (error) {
                 this.$notify.error({
