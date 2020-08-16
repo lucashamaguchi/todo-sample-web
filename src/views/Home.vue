@@ -31,7 +31,7 @@ export default {
     data() {
         return {
             loading: false,
-            currentTodo: "teste",
+            currentTodo: "",
         };
     },
     computed: {
