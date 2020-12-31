@@ -25,7 +25,6 @@ const actions = {
     }) => {
         const response = await todosApi.get("/todos");
         const results = response.data.results;
-        console.log(results)
         commit(types.TODO_LIST, results);
         return response;
     },
